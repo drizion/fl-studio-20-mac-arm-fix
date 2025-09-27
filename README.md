@@ -29,7 +29,7 @@ softwareupdate --install-rosetta --agree-to-license
 ### 2. Baixar o Patch
 Para facilitar, este repositório inclui um **app do Automator já configurado**:  
 
-- **Download:** [FL Studio 20.8.3 fix](./FL%20Studio%20fix.app.zip)  
+- **Download:** [FL Studio 20.8.3 fix]()  
 - Descompacte e mova para a pasta **Aplicativos**.  
 - Abra o app com 2 cliques; ele já roda via **Rosetta x86_64**.  
 - O ícone do app foi personalizado para usar o **ícone oficial do FL Studio**.
