@@ -48,6 +48,16 @@ Para facilitar, este repositório inclui um **app do Automator já configurado**
 
 ---
 
+### Importante
+Caso apareça que o patch "está danificado e não pode ser aberto", rode esse comando que vai resolver:
+
+```sh
+xattr -d com.apple.quarantine "/Applications/FL Studio Fix.app"
+```
+
+- Esse comando adiciona o Automator na quarentena para ignorar as verificações da Apple.
+- O `FL Studio Fix.app` DEVE estar na pasta `Aplicativos` ou `Applications`.
+
 ## 📌 Licença
 Este repositório é apenas documentação/tutorial.  
 O FL Studio é software proprietário da [Image-Line](https://www.image-line.com/).
